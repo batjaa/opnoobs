@@ -10,8 +10,8 @@ var hbs = require('express3-handlebars').create({
   extname: '.hbs',
 });
 app.set('views', projpath('server/views'));
-app.set('view engine', 'hbs');
 app.engine('hbs', hbs.engine);
+app.set('view engine', 'hbs');
 
 app.set('port', process.env.PORT || 3000);
 
