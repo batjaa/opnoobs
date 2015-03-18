@@ -1,14 +1,13 @@
 {
-  "name": "mean",
+  "name": "opnoobs",
   "description": "MEAN.io: A fullstack JavaScript framework powered by MongoDB, ExpressJS, AngularJS, NodeJS.",
-  "version": "0.4.3",
+  "version": "0.0.1",
   "private": false,
-  "author": "Linnovate <mean@linnovate.net>",
-  "contributors": "https://github.com/linnovate/mean/graphs/contributors",
+  "author": "Batjaa <batjaa0615@gmail.com>",
   "mean": "0.4.3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linnovate/mean.git"
+    "url": "https://github.com/batjaa/opnoobs.git"
   },
   "engines": {
     "node": "0.10.x",
