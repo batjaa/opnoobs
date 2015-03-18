@@ -28,6 +28,11 @@ Icon
 .idea/
 
 # --------------------
+# Sublime Files
+# --------------------
+*.sublime-project
+
+# --------------------
 # Netbeans Files
 # --------------------
 nbproject/private/
