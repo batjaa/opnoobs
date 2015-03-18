@@ -30,7 +30,7 @@ Icon
 # --------------------
 # Sublime Files
 # --------------------
-*.sublime-project
+*.sublime-*
 
 # --------------------
 # Netbeans Files
