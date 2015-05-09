@@ -1,4 +1,9 @@
 # --------------------
+# App Files
+# --------------------
+/.env
+
+# --------------------
 # OSX Files
 # --------------------
 .DS_Store
@@ -60,16 +65,6 @@ node_modules/
 # --------------------
 .bower-*/
 bower_components
-
-# --------------------
-# App Files
-# --------------------
-test/coverage/
-modules/public/
-modules/views/
-/public/build/
-/packages/custom/
-/packages/contrib/
 
 # --------------------
 # vim Files
