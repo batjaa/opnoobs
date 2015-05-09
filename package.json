@@ -18,7 +18,8 @@
     "mongoose": "~4.0.2",
     "cors": "~2.6.0",
     "connect-rest": "~1.7.14",
-    "lodash": "~3.8.0"
+    "lodash": "~3.8.0",
+    "ejs": "~2.3.1"
   },
   "devDependencies": {
     "mocha": "~2.2.4",
