@@ -20,11 +20,7 @@ module.exports = function(app){
 
   app.set('port', process.env.PORT || 3000);
 
-  app.use(function(req, res, next){
-    res.locals.showTests = app.get('env') !== 'production' &&
-    req.query.test === '1';
-    next();
-  });
+  prequire('/server/config/env/env.js')(app);
 
   app.use('/api', require('cors')());
 
