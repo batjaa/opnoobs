@@ -14,7 +14,7 @@ global.prequire = function (modulePath) {
 
 // Set up some very common and widely used requires as globals
 // global.util = require('util');
-// global._ = require('underscore');
+global._ = require('lodash');
 // global.Q = require('q');
 // global.logger = prequire('server/utils/logger');
 
